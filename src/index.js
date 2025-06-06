@@ -10,7 +10,6 @@ function clearContent() {
   content.innerHTML = "";
 }
 
-const content = document.getElementById("content");
 const footer = createFooter();
 document.body.appendChild(footer);
 
