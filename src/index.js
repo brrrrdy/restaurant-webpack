@@ -2,6 +2,7 @@ import loadHome from "./home";
 import loadMenu from "./menu";
 import loadContact from "./contact";
 import loadAbout from "./about";
+import "./styles.css";
 
 function clearContent() {
   const content = document.getElementById("content");
