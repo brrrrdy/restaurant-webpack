@@ -31,11 +31,13 @@ header {
 
 nav {
   display: flex;
+  padding-right: 50px;
   gap: 1.5rem;
 }
 
 nav button {
   background: none;
+  font-family: "Tinos";
   border: none;
   color: white;
   font-size: 1.2rem;
