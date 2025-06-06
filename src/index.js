@@ -2,12 +2,17 @@ import loadHome from "./home";
 import loadMenu from "./menu";
 import loadContact from "./contact";
 import loadAbout from "./about";
+import createFooter from "./footer";
 import "./styles.css";
 
 function clearContent() {
   const content = document.getElementById("content");
   content.innerHTML = "";
 }
+
+const content = document.getElementById("content");
+const footer = createFooter();
+document.body.appendChild(footer);
 
 loadHome();
 
