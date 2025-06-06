@@ -1,4 +1,4 @@
-import loadHomepage from "./homepage";
+import loadHome from "./home";
 import loadMenu from "./menu";
 import loadContact from "./contact";
 import loadAbout from "./about";
@@ -8,14 +8,14 @@ function clearContent() {
   content.innerHTML = "";
 }
 
-loadHomepage();
+loadHome();
 
 document.querySelector("nav").addEventListener("click", (e) => {
   if (e.target.tagName === "BUTTON") {
     const tab = e.target.textContent;
     clearContent();
 
-    if (tab === "Home") loadHomepage();
+    if (tab === "Home") loadHome();
     else if (tab === "Menu") loadMenu();
     else if (tab === "About") loadAbout();
     else if (tab === "Contact") loadContact();
