@@ -13,7 +13,7 @@ function loadHomepage() {
   const intro = document.createElement("div");
   intro.classList.add("intro");
   intro.innerHTML = `
-    <h1>Welcome to Fresh Greens</h1>
+    <h1>Welcome to Smiling Salads!</h1>
     <p>We make the best salads to ensure the biggest smiles.</p>
   `;
 
