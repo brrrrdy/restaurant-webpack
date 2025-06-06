@@ -4,6 +4,8 @@ import loadContact from "./contact";
 import loadAbout from "./about";
 import createFooter from "./footer";
 import "./styles.css";
+import "typeface-roboto";
+import "typeface-tinos";
 
 function clearContent() {
   const content = document.getElementById("content");
