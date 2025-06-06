@@ -12,6 +12,12 @@ body {
   overflow-x: hidden;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 /* Header */
 header {
   background-color: #3e8e41;
@@ -24,25 +30,19 @@ header {
 nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: right;
   gap: 1rem;
+  padding-right: 100px;
 }
 
 nav button {
-  background-color: white;
-  border: 2px solid #3e8e41;
-  color: #3e8e41;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
-  font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-nav button:hover,
-nav button.active {
-  background-color: #3e8e41;
-  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
 }
 
 /* Content */
@@ -69,6 +69,7 @@ nav button.active {
 
 .hero {
   display: flex;
+  flex: 1;
   height: calc(100vh - 10px);
   border-radius: 0;
   overflow: hidden;
