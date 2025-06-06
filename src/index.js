@@ -1,1 +1,3 @@
-console.log("Hi is it working?");
+import loadHomepage from "./home";
+
+loadHomepage();
