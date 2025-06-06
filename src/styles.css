@@ -104,6 +104,16 @@ nav button.active {
   color: #444;
 }
 
+/* Footer */
+
+footer {
+  background-color: #3e8e41;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
 /* Responsiveness */
 @media (max-width: 600px) {
   nav {
